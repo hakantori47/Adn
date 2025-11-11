@@ -28,7 +28,7 @@ jobs:
         pip install requests urllib3
         
     - name: Run M3U Generator
-      run: python "Deathless Selçuk spor otomatik bulucu.py"
+      run: python "adn.py"
       
     - name: Commit and push
       run: |
